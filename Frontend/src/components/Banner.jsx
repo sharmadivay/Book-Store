@@ -1,4 +1,4 @@
-import banner from "../../public/banner.png";
+import banner from "/banner.png";
 
 function Banner() {
   return (
@@ -14,7 +14,7 @@ function Banner() {
   <input type="text" className="grow" placeholder="Email" />
 </label>
         </div>
-        <button className="btn btn-secondary mt-6">Secondary</button>        
+        <button className="btn btn-secondary mt-6">Get Started</button>        
       </div>
       <div className="w-full md:w-1/2 order-1 "><img src={banner} className="w-92 h-92" alt="image" /></div>
     </div>
